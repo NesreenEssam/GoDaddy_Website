@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Smoke Test(failed)" verbose="5">
+    <parameter name="url" value="www.godaddy.com"/>
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="tests.RegisterationTests">
+        <methods>
+          <include name="register"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.RegisterationTests -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
